@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\barth\\OneDrive\\Desktop\\IA_Jarvis_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF29C8F-01C2-07B5-AB2C-C256BE6DC169}|IA_Jarvis_Project.Web\\IA_Jarvis_Project.Web.csproj|c:\\users\\barth\\onedrive\\desktop\\ia_jarvis_project\\ia_jarvis_project.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2FF29C8F-01C2-07B5-AB2C-C256BE6DC169}|IA_Jarvis_Project.Web\\IA_Jarvis_Project.Web.csproj|solutionrelative:ia_jarvis_project.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\barth\\OneDrive\\Desktop\\IA_Jarvis_Project\\IA_Jarvis_Project.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "IA_Jarvis_Project.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\barth\\OneDrive\\Desktop\\IA_Jarvis_Project\\IA_Jarvis_Project.Web\\appsettings.json*",
+              "RelativeToolTip": "IA_Jarvis_Project.Web\\appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-07T20:41:35.077Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

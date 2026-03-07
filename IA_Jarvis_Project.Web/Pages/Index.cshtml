@@ -1,0 +1,121 @@
+﻿@page
+@model IA_Jarvis_Project.Web.Pages.IndexModel
+@{
+    ViewData["Title"] = "Jarvis - Assistente Pessoal";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/jarvis.css" />
+</head>
+<body>
+
+<header>
+    <div class="logo">JAR<span>VIS</span></div>
+    <div class="status-pill">
+        <div class="status-dot"></div>
+        SISTEMA ONLINE
+    </div>
+    <div class="header-actions">
+        <button class="btn-icon disabled" title="Disponivel na Fase 3">&#x29C6; VOZ</button>
+        <button class="btn-icon disabled" title="Disponivel na Fase 3">&#x25CE; TELA</button>
+    </div>
+</header>
+
+<div class="main-layout">
+
+    <aside class="sidebar">
+        <div class="sidebar-title">&#x25C8; Historico de Memoria</div>
+        <div class="history-list">
+            @if (Model.Historico.Count == 0)
+            {
+                <div class="empty-history">
+                    Nenhuma conversa ainda.<br />
+                    <span style="color:var(--accent)">Diga ola ao Jarvis!</span>
+                </div>
+            }
+            else
+            {
+                @foreach (var m in Model.Historico)
+                {
+                    <div class="history-item">
+                        <div class="hi-time">@m.Timestamp.ToString("dd/MM HH:mm")</div>
+                        <div class="hi-msg">@m.UserInput</div>
+                        <div class="hi-resp">@m.AiResponse</div>
+                    </div>
+                }
+            }
+        </div>
+    </aside>
+
+    <div class="chat-area">
+        <div class="chat-messages" id="chatMessages">
+
+            @if (Model.Historico.Count == 0)
+            {
+                <div class="welcome-screen">
+                    <div class="welcome-ring">J</div>
+                    <div class="welcome-title">OLA, EU SOU O JARVIS</div>
+                    <div class="welcome-sub">
+                        Seu assistente pessoal local. Estou pronto para conversar,
+                        responder perguntas e futuramente auxiliar com tarefas no seu computador.
+                    </div>
+                </div>
+            }
+            else
+            {
+                @foreach (var m in Enumerable.Reverse(Model.Historico))
+                {
+                    <div class="msg-bubble user">
+                        <div class="msg-avatar avatar-user">VOCE</div>
+                        <div class="msg-content">
+                            <div class="msg-label">VOCE &middot; @m.Timestamp.ToString("HH:mm")</div>
+                            <div class="msg-text user">@m.UserInput</div>
+                        </div>
+                    </div>
+                    <div class="msg-bubble">
+                        <div class="msg-avatar avatar-jarvis">AI</div>
+                        <div class="msg-content">
+                            <div class="msg-label">JARVIS &middot; @m.Timestamp.ToString("HH:mm")</div>
+                            <div class="msg-text jarvis">@m.AiResponse</div>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+
+        <div class="input-bar">
+            <form method="post" class="input-form" id="chatForm">
+                <div class="input-wrap">
+                    <input type="text"
+                           name="MensagemUsuario"
+                           id="inputMsg"
+                           placeholder="Fale com o Jarvis..."
+                           autocomplete="off"
+                           required />
+                </div>
+                <button type="submit" class="btn-send" id="btnSend" title="Enviar">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    var msgs = document.getElementById('chatMessages');
+    if (msgs) msgs.scrollTop = msgs.scrollHeight;
+    document.getElementById('inputMsg').focus();
+</script>
+</body>
+</html>

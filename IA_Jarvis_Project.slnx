@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="IA_Jarvis_Project.Core/IA_Jarvis_Project.Core.csproj" />
+  <Project Path="IA_Jarvis_Project.Infrastructure/IA_Jarvis_Project.Infrastructure.csproj" />
+  <Project Path="IA_Jarvis_Project.Services/IA_Jarvis_Project.Services.csproj" />
+  <Project Path="IA_Jarvis_Project.Web/IA_Jarvis_Project.Web.csproj" />
+</Solution>
