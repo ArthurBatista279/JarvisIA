@@ -19,27 +19,25 @@ public class Program
         builder.Services.AddDbContext<JarvisDbContext>(options =>
             options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-        // --- Repositórios ---
+        // --- Reposit�rios ---
         builder.Services.AddScoped<IMemoryRepository, MemoryRepository>();
 
         // --- Motor de IA (Gemini) ---
         builder.Services.AddHttpClient<IAIService, GeminiService>();
 
-        // --- Serviços do Jarvis ---
+        // --- Servi�os do Jarvis ---
         builder.Services.AddScoped<ChatService>();
         builder.Services.AddScoped<MemoryService>();
         builder.Services.AddScoped<CommandService>();
 
         var app = builder.Build();
 
-        // --- Criação automática do banco de dados na inicialização ---
         using (var scope = app.Services.CreateScope())
         {
             var db = scope.ServiceProvider.GetRequiredService<JarvisDbContext>();
             db.Database.EnsureCreated();
         }
 
-        // --- Pipeline HTTP ---
         if (!app.Environment.IsDevelopment())
         {
             app.UseExceptionHandler("/Error");

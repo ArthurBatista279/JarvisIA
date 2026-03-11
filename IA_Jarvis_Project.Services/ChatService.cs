@@ -19,14 +19,17 @@ public class ChatService
     }
 
     /// <summary>
-    /// Envia uma mensagem ao Jarvis, obtém resposta da IA e salva no histórico.
+    /// Envia uma mensagem ao Jarvis, obtém resposta da IA com contexto e salva no histórico.
     /// </summary>
     public async Task<string> EnviarMensagemAsync(string mensagemUsuario)
     {
-        // 1. Gera resposta via motor de IA
-        var resposta = await _aiService.GerarRespostaAsync(mensagemUsuario);
+        // 1. Busca o histórico existente para enviar como contexto
+        var historico = await _repository.ObterTodosAsync();
 
-        // 2. Salva a conversa na memória persistente
+        // 2. Gera resposta via motor de IA passando o histórico como contexto
+        var resposta = await _aiService.GerarRespostaAsync(mensagemUsuario, historico);
+
+        // 3. Salva a conversa na memória persistente
         var memoria = new MemoryRecord
         {
             UserInput = mensagemUsuario,

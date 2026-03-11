@@ -10,3 +10,15 @@ C:\Users\barth\OneDrive\Desktop\IA_Jarvis_Project\IA_Jarvis_Project.Core\obj\Deb
 C:\Users\barth\OneDrive\Desktop\IA_Jarvis_Project\IA_Jarvis_Project.Core\obj\Debug\net10.0\refint\IA_Jarvis_Project.Core.dll
 C:\Users\barth\OneDrive\Desktop\IA_Jarvis_Project\IA_Jarvis_Project.Core\obj\Debug\net10.0\IA_Jarvis_Project.Core.pdb
 C:\Users\barth\OneDrive\Desktop\IA_Jarvis_Project\IA_Jarvis_Project.Core\obj\Debug\net10.0\ref\IA_Jarvis_Project.Core.dll
+C:\Users\54534361823\Desktop\JarvisIA\IA_Jarvis_Project.Core\bin\Debug\net10.0\IA_Jarvis_Project.Core.deps.json
+C:\Users\54534361823\Desktop\JarvisIA\IA_Jarvis_Project.Core\bin\Debug\net10.0\IA_Jarvis_Project.Core.dll
+C:\Users\54534361823\Desktop\JarvisIA\IA_Jarvis_Project.Core\bin\Debug\net10.0\IA_Jarvis_Project.Core.pdb
+C:\Users\54534361823\Desktop\JarvisIA\IA_Jarvis_Project.Core\obj\Debug\net10.0\IA_Jarvis_Project.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\54534361823\Desktop\JarvisIA\IA_Jarvis_Project.Core\obj\Debug\net10.0\IA_Jarvis_Project.Core.AssemblyInfoInputs.cache
+C:\Users\54534361823\Desktop\JarvisIA\IA_Jarvis_Project.Core\obj\Debug\net10.0\IA_Jarvis_Project.Core.AssemblyInfo.cs
+C:\Users\54534361823\Desktop\JarvisIA\IA_Jarvis_Project.Core\obj\Debug\net10.0\IA_Jarvis_Project.Core.csproj.CoreCompileInputs.cache
+C:\Users\54534361823\Desktop\JarvisIA\IA_Jarvis_Project.Core\obj\Debug\net10.0\IA_Jarvis_Project.Core.sourcelink.json
+C:\Users\54534361823\Desktop\JarvisIA\IA_Jarvis_Project.Core\obj\Debug\net10.0\IA_Jarvis_Project.Core.dll
+C:\Users\54534361823\Desktop\JarvisIA\IA_Jarvis_Project.Core\obj\Debug\net10.0\refint\IA_Jarvis_Project.Core.dll
+C:\Users\54534361823\Desktop\JarvisIA\IA_Jarvis_Project.Core\obj\Debug\net10.0\IA_Jarvis_Project.Core.pdb
+C:\Users\54534361823\Desktop\JarvisIA\IA_Jarvis_Project.Core\obj\Debug\net10.0\ref\IA_Jarvis_Project.Core.dll

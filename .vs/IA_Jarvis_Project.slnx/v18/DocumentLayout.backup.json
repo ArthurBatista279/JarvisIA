@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\barth\\OneDrive\\Desktop\\IA_Jarvis_Project\\",
+  "WorkspaceRootPath": "C:\\Users\\54534361823\\Desktop\\JarvisIA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2FF29C8F-01C2-07B5-AB2C-C256BE6DC169}|IA_Jarvis_Project.Web\\IA_Jarvis_Project.Web.csproj|c:\\users\\barth\\onedrive\\desktop\\ia_jarvis_project\\ia_jarvis_project.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{E9927054-8DEE-6CDB-039A-7140ED32B935}|IA_Jarvis_Project.Infrastructure\\IA_Jarvis_Project.Infrastructure.csproj|c:\\users\\54534361823\\desktop\\jarvisia\\ia_jarvis_project.infrastructure\\ai\\geminiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9927054-8DEE-6CDB-039A-7140ED32B935}|IA_Jarvis_Project.Infrastructure\\IA_Jarvis_Project.Infrastructure.csproj|solutionrelative:ia_jarvis_project.infrastructure\\ai\\geminiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF29C8F-01C2-07B5-AB2C-C256BE6DC169}|IA_Jarvis_Project.Web\\IA_Jarvis_Project.Web.csproj|c:\\users\\54534361823\\desktop\\jarvisia\\ia_jarvis_project.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2FF29C8F-01C2-07B5-AB2C-C256BE6DC169}|IA_Jarvis_Project.Web\\IA_Jarvis_Project.Web.csproj|solutionrelative:ia_jarvis_project.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF29C8F-01C2-07B5-AB2C-C256BE6DC169}|IA_Jarvis_Project.Web\\IA_Jarvis_Project.Web.csproj|c:\\users\\54534361823\\desktop\\jarvisia\\ia_jarvis_project.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF29C8F-01C2-07B5-AB2C-C256BE6DC169}|IA_Jarvis_Project.Web\\IA_Jarvis_Project.Web.csproj|solutionrelative:ia_jarvis_project.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\barth\\OneDrive\\Desktop\\IA_Jarvis_Project\\IA_Jarvis_Project.Web\\appsettings.json",
-              "RelativeDocumentMoniker": "IA_Jarvis_Project.Web\\appsettings.json",
-              "ToolTip": "C:\\Users\\barth\\OneDrive\\Desktop\\IA_Jarvis_Project\\IA_Jarvis_Project.Web\\appsettings.json*",
-              "RelativeToolTip": "IA_Jarvis_Project.Web\\appsettings.json*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-07T20:41:35.077Z",
+              "Title": "GeminiService.cs",
+              "DocumentMoniker": "C:\\Users\\54534361823\\Desktop\\JarvisIA\\IA_Jarvis_Project.Infrastructure\\AI\\GeminiService.cs",
+              "RelativeDocumentMoniker": "IA_Jarvis_Project.Infrastructure\\AI\\GeminiService.cs",
+              "ToolTip": "C:\\Users\\54534361823\\Desktop\\JarvisIA\\IA_Jarvis_Project.Infrastructure\\AI\\GeminiService.cs",
+              "RelativeToolTip": "IA_Jarvis_Project.Infrastructure\\AI\\GeminiService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAkwB4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T17:50:25.793Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\54534361823\\Desktop\\JarvisIA\\IA_Jarvis_Project.Web\\Program.cs",
+              "RelativeDocumentMoniker": "IA_Jarvis_Project.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\54534361823\\Desktop\\JarvisIA\\IA_Jarvis_Project.Web\\Program.cs",
+              "RelativeToolTip": "IA_Jarvis_Project.Web\\Program.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T17:18:48.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\54534361823\\Desktop\\JarvisIA\\IA_Jarvis_Project.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "IA_Jarvis_Project.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\54534361823\\Desktop\\JarvisIA\\IA_Jarvis_Project.Web\\appsettings.json",
+              "RelativeToolTip": "IA_Jarvis_Project.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-07T20:41:35.077Z"
             }
           ]
         }

@@ -1,4 +1,4 @@
-﻿/* ========================================
+/* ========================================
    Jarvis – Estilos Globais (jarvis.css)
    ======================================== */
 
@@ -22,7 +22,7 @@ body {
     background: var(--bg-dark);
     color: var(--text-main);
     font-family: 'Inter', sans-serif;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -100,8 +100,9 @@ header {
     position: relative; z-index: 1;
     display: grid;
     grid-template-columns: 280px 1fr;
-    flex: 1; overflow: hidden;
-    height: calc(100vh - 65px);
+    flex: 1;
+    min-height: 0;
+    overflow: hidden;
 }
 
 /* SIDEBAR */

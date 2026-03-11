@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IA_Jarvis_Project.Services")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ce9faa9c709ce47a8e8186b5d597f49f2838bcd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67416522072fb35f219b227a28d4d715c0ee5d88")]
 [assembly: System.Reflection.AssemblyProductAttribute("IA_Jarvis_Project.Services")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IA_Jarvis_Project.Services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
