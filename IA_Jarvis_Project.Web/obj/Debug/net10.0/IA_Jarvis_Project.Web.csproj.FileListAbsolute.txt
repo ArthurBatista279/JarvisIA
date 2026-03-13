@@ -443,4 +443,3 @@ C:\Users\54534361823\Desktop\JarvisIA\IA_Jarvis_Project.Web\obj\Debug\net10.0\IA
 C:\Users\54534361823\Desktop\JarvisIA\IA_Jarvis_Project.Web\obj\Debug\net10.0\IA_Jarvis_Project.Web.genruntimeconfig.cache
 C:\Users\54534361823\Desktop\JarvisIA\IA_Jarvis_Project.Web\obj\Debug\net10.0\ref\IA_Jarvis_Project.Web.dll
 C:\Users\54534361823\Desktop\JarvisIA\IA_Jarvis_Project.Web\obj\Debug\net10.0\compressed\2lfb0cnr7k-{0}-rc69t6yoll-rc69t6yoll.gz
-C:\Users\54534361823\Desktop\JarvisIA\IA_Jarvis_Project.Web\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
