@@ -42,4 +42,4 @@ Este repositório reflete meu processo de aprendizado no **SENAI (Desenvolviment
 ---
 
 ## 👨‍💻 Autor
-**Arthur** - *Iniciante Avançado
+**Arthur** - Iniciante Avançado
